@@ -1,0 +1,267 @@
+/* common css start */
+
+body{
+    padding: 0;
+    margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+
+}
+
+/* common css end */
+
+/* header start */
+header{
+	padding: 20px 0;
+}
+.container{
+	margin: 0 auto ;
+	overflow: hidden;
+	width: 90%;
+}
+.logo{
+	margin-top: 13px;
+	width: 12%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.manu{
+	width: 65%;
+	float: right;
+}
+.manu ul{
+  float: right;
+
+}
+.manu ul li{
+	list-style: none;
+	float: left;
+}
+.manu ul li a{
+  display: inline-block;
+  margin: 0 50px;
+  padding: 4px 1px 3px;
+  color: #626262;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: .3s;
+}
+.manu ul li:last-child a{
+	margin-right: 0;
+}
+.manu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/* header end */
+
+/* bannar start */
+.bannar{
+	margin-top: 20px;
+}
+.b-img{}
+.b-img img{
+	width: 100%;
+}
+/* bannar end */
+
+/* photodiary start */
+.photodiary{
+	padding: 100px 0;
+}
+.container2{
+	overflow: hidden;
+	width: 80%;
+	/* border: 1px solid; */
+	margin: 0 auto;
+
+}
+.p-content{}
+.p_light{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	margin: 0;
+	text-transform: uppercase;
+}
+.c_h1{
+
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.c_light{
+	  margin: 0;
+	  font-size: 16px;
+    line-height: 1.6;
+}
+.mb_40{
+	margin-bottom: 30px;
+}
+
+/* photodiary end */
+
+/* blog start */
+
+  .blog{}
+  .blogs{
+  	
+  }
+  .single{
+  	width: 47%;
+    float: left;
+   /*  border: 1px solid; */
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+  }
+  .single:nth-child(even){
+      padding-left: 6%;
+  }
+  .single img{
+  	width: 100%;
+  }
+.tp_40{
+margin-top: 30px;
+}
+
+
+/* blog end */
+
+/* news start */
+
+.news{
+ background-color:#f0f0f0;
+  padding: 70px 0;
+}
+.singup{
+	text-align: center;
+}
+.p_color{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	 position: relative;
+  width:400px ;
+  margin: 0 auto;
+ 
+}
+.s_form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+  width: 345px;
+  height: 45px;
+	border: none;
+	border-bottom: 1px solid #333333;
+	background: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+  top: 17px;
+  right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{
+	width: 100%;
+}
+/* news end */
+/* blog2 start */
+.blog2{
+	margin-top: 100px;
+}
+/* blog2 end */
+
+/* lord start */
+.load{
+	margin: 40px auto 160px;
+  width: 15%;
+  text-align: center;
+}
+	.btn{
+
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: #6C6C6C;
+    padding: 10px 20px;
+    border: 1px solid #616161;
+    background-color: transparent;
+    transition: .3s;
+    
+	}
+	.btn:hover{
+		color: #333333;
+	}
+/* lord end */
+
+/* footer start */
+.footer{
+
+	  padding: 18px 0;
+    background-color: #EFEFEF;
+}
+.container4{
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+.footer-text{
+	float: left;
+}
+.footer-text ul{
+	list-style: none;
+}
+.footer-text ul li{
+	float: left;
+}
+.footer-text ul li a{
+	  text-decoration: none;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+.footer-text ul li a:last-child{
+	margin-right: 15px;
+}
+.footer-icon{
+	float: right;
+}
+.footer-icon ul{
+	    list-style: none;
+	    float: left;
+}
+.footer-icon ul li{
+	list-style: none;
+	float: left;
+}
+.footer-icon ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    
+    
+}
+.footer-icon ul li a span{
+    margin-right: 15px;
+    color: #000000;
+    font-size: 14px;
+}
+/* footer end */
